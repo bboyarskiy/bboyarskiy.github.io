@@ -7,7 +7,8 @@
         font-size: 2rem;
     }
     header {
-        height: 75vh;
+        height: 100vh;
+        background-color: #4f6d7a;
     }
 }
 
@@ -19,7 +20,7 @@
         font-size: 2rem;
     }
     header {
-        height: 75vh;
+        height: 100vh;
     }
 }
 
@@ -29,6 +30,7 @@
     }
     header {
         height: 100vh;
+        background-color: #316c94;
     }
 }
 
@@ -55,10 +57,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    background-color: #4f6d7a;
-}
-
 header a {
     text-decoration: none;
 }
@@ -74,6 +72,14 @@ header nav a {
 header nav a:hover,
 header nav a:active {
     color: #9e2b25;
+}
+
+header .header-info a {
+    color: #d86059;
+}
+
+header .header-info a:hover {
+    color: #f8afab;
 }
 
 header .center {
