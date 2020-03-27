@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
+@media (min-width: 0px) {
+    body {
+        font-size: 0.8rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    header {
+        height: 75vh;
+    }
+}
+
+@media (min-width: 576px) {
+    body {
+        font-size: 0.8rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    header {
+        height: 75vh;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    header {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-size: 1rem;
+    }
+    header {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        height: 100vh;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #4f6d7a;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+header nav a {
+    color: #ffffff;
+}
+
+header nav a:hover,
+header nav a:active {
+    color: #9e2b25;
+}
+
+header .center {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+header .center a {
+    color: #ffffff;
+}
+
+header .center a:hover {
+    color: #ffffff;
+}
+
+header .header-info {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 5% 10%;
+}
+
+.bb-text-white {
+    color: #ffffff;
+}
+
+.bb-bg-1 {
+    background-color: #ffffff;
+}
+
+.bb-bg-2 {
+    background-color: #c5cbd3;
+}
+
+.bb-bg-3 {
+    background-color: #546A7B;
+}
+
+.bb-bg-4 {
+    background-color: #a0af84;
+}
+
+.bb-bg-5 {
+    background-color: #9e2b25;
+}
+
+.bb-bg-6 {
+    background-color: #111111;
+}
