@@ -1,45 +1,58 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
 @media (min-width: 0px) {
     body {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     header {
         height: 100vh;
+        min-height: 50%;
         background-color: #4f6d7a;
+    }
+    header a {
+        font-size: 1rem;
     }
 }
 
 @media (min-width: 576px) {
     body {
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     header {
         height: 100vh;
+    }
+    header a {
+        font-size: 1rem;
     }
 }
 
 @media (min-width: 768px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
     header {
         height: 100vh;
         background-color: #316c94;
     }
+    header a {
+        font-size: 1.2rem;
+    }
 }
 
 @media (min-width: 992px) {
     body {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     header {
         height: 100vh;
+    }
+    header a {
+        font-size: 1.2rem;
     }
 }
 
@@ -80,6 +93,15 @@ header .header-info a {
 
 header .header-info a:hover {
     color: #f8afab;
+}
+
+.social-link {
+    width: 95px;
+    height: 95px;
+    line-height: 95px;
+    margin: 0.5%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
 }
 
 header .center {
