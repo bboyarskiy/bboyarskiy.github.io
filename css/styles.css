@@ -11,7 +11,7 @@
         min-height: 90vh;
         background-color: #4f6d7a;
     }
-    header a {
+    a {
         font-size: 1rem;
     }
 }
@@ -26,7 +26,7 @@
     /* header {
         height: 100vh;
     } */
-    header a {
+    a {
         font-size: 1rem;
     }
 }
@@ -51,7 +51,7 @@
     /* header {
         height: 100vh;
     } */
-    header a {
+    a {
         font-size: 1.2rem;
     }
 }
@@ -70,11 +70,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header a {
+a {
     text-decoration: none;
 }
 
-header a:hover {
+a:hover {
     text-decoration: none;
 }
 
@@ -102,6 +102,13 @@ header nav a:active {
     margin: 0.5%;
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.1);
+    color: #d86059;
+    text-align: center;
+}
+
+.social-link:hover {
+    color: #f8afab;
+    background: rgba(225, 225, 225, 0.3);
 }
 
 .center {
@@ -124,6 +131,10 @@ a:hover {
 
 .bb-text-white {
     color: #ffffff;
+}
+
+.bb-text-red {
+    color: #9e2b25;
 }
 
 .bb-bg-1 {
